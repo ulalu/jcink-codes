@@ -1,3 +1,11 @@
+  //*** CONFIGURATION ***//
+//To specify which character to track, add your character names in the format ["name", "name"] etc
+const characterNames = ["SHARRA ARRYN", "ROBB STARK"]
+const irrelevantForums = ["INFORMATION & LORE", "SITE NEWS", "MEMBER EXTRAS", "Incomplete Applications", "Finished Applications", "REGISTRATION", "CLAIMS", "SHIPPERS", "FAMILY", "LOVERS & BETROTHALS", "FRIENDS & COUNCIL", "OPEN CALLS & MISC", "WANTED ADS", "OOC CHARACTER DEV", "TRACKERS & DEV", "ARCHIVED CHARACTERS", "MISC. ARCHIVES", "IF/JCINK FIRST LINK", "PB/ZB FIRST LINK", "OTHER FIRST LINK", "LINK BACKS", "ADVERTISING", "ABSENCES", "DISCUSSIONS", "GAMES"];
+closedThreadForums = ["Archives", "Acta pt. 1", "Acta pt. 1 INFO", "Completed Threads", "Where I Hide the Goodz","Inactive Characters", "Archived Characters",  "Misc. Archives"]
+
+//*** END OF CONFIGURATION AREA ***//
+  
   const unusedForums = irrelevantForums.map((item) => item.toLowerCase());
   const closedForums = closedThreadForums.map((item) => item.toLowerCase());
 
