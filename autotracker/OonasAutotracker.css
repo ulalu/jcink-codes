@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+.thread-list {
+  position: relative;
+  max-width: inherit;
+  margin: 0px auto 10px;
+  padding: 10px;
+  display: block;
+  text-transform: lowercase;
+}
+
+.thread-list .thread-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+  border-bottom: 1px solid;
+  padding: 0px 0px 0.25em;
+  margin-bottom: 1em;
+  line-height: 1em;
+  text-align: left;
+}
+
+.thread {
+  padding-left: 3em;
+  margin-bottom: 1em;
+  font-family: "Montserrat", sans-serif;
+  text-indent: -2em;
+}
+
+.thread > a,
+.owed,
+.unowed,
+.closed {
+  font-weight: 800;
+  padding-right: 1em;
+}
+
+.date {
+  font-style: italic;
+}
+
+.empty {
+  text-indent: 0;
+}
