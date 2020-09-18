@@ -1,6 +1,4 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    const unusedForums = irrelevantForums.map((item) => item.toLowerCase());
+  const unusedForums = irrelevantForums.map((item) => item.toLowerCase());
   const closedForums = closedThreadForums.map((item) => item.toLowerCase());
 
   for (i = 0; i < characterNames.length; i++) {
@@ -82,4 +80,4 @@
       processCharacterThreads(thisCharacter);
     }, i*10000);
   }
-</script>
+
